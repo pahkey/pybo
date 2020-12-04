@@ -10,5 +10,3 @@ urlpatterns = [
     path('logout/', auth_views.LogoutView.as_view(), name='logout'),
     path('signup/', views.signup, name='signup'),
 ]
-
-handler404 = 'common.views.page_not_found'
